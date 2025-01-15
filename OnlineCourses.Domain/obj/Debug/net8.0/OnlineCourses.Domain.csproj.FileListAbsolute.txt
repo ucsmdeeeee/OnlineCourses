@@ -1,0 +1,14 @@
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\bin\Debug\net8.0\OnlineCourses.Domain.deps.json
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\bin\Debug\net8.0\OnlineCourses.Domain.dll
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\bin\Debug\net8.0\OnlineCourses.Domain.pdb
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.AssemblyInfoInputs.cache
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.AssemblyInfo.cs
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.dll
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\refint\OnlineCourses.Domain.dll
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.pdb
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\ref\OnlineCourses.Domain.dll
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\bin\Debug\net8.0\OnlineCourses.Domain.runtimeconfig.json
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.csproj.AssemblyReference.cache
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.genruntimeconfig.cache
