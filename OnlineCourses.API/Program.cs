@@ -62,6 +62,10 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    options.IncludeXmlComments(xmlPath);
+
     options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
         In = Microsoft.OpenApi.Models.ParameterLocation.Header,
@@ -84,12 +88,6 @@ builder.Services.AddSwaggerGen(options =>
             },
             new string[] {}
         }
-    });
-    builder.Services.AddSwaggerGen(options =>
-    {
-        var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-        options.IncludeXmlComments(xmlPath);
     });
 });
 
