@@ -12,3 +12,4 @@ C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\bin\Debug\net8.0\OnlineCourses.Domain.runtimeconfig.json
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.csproj.AssemblyReference.cache
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.genruntimeconfig.cache
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Domain\obj\Debug\net8.0\OnlineCourses.Domain.sourcelink.json

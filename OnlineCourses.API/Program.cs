@@ -97,6 +97,7 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 app.UseHttpMetrics();
+app.UseMetricServer();
 // Настройка приложения
 if (app.Environment.IsDevelopment())
 {
@@ -107,11 +108,5 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
-
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-    endpoints.MapMetrics(); // Эндпоинт для Prometheus
-});
 
 app.Run();

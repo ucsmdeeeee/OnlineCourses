@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+CCV+rQL1XCe7p5Ttxp0DaY/hhWb3EYqdoG8gHowN1H74+0b6FIFx2vJ5jiYMQEOQMHXPwmg1SWIKBmmSMscQ==",
+  "dgSpecHash": "F/N1BpfQmIAnfNKJvd/ytc8OtctYlBWYTV9cjOkobZZNfOY5Ahnm+j20OK3gu6j1qBPMJqxjk3/81SPkmuCVFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\lozik\\source\\repos\\OnlineCourses\\OnlineCourses.Domain\\OnlineCourses.Domain.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.http\\3.1.9\\microsoft.extensions.http.3.1.9.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
@@ -42,6 +43,8 @@
     "C:\\Users\\lozik\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
+    "C:\\Users\\lozik\\.nuget\\packages\\prometheus-net\\6.0.0\\prometheus-net.6.0.0.nupkg.sha512",
+    "C:\\Users\\lozik\\.nuget\\packages\\prometheus-net.aspnetcore\\6.0.0\\prometheus-net.aspnetcore.6.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",

@@ -18,7 +18,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
           "OnlineCourses.Application": "1.0.0",
-          "OnlineCourses.Domain": "1.0.0"
+          "OnlineCourses.Domain": "1.0.0",
+          "prometheus-net.AspNetCore": "6.0.0"
         },
         "runtime": {
           "OnlineCourses.Infrastructure.dll": {}
@@ -411,6 +412,13 @@
           }
         }
       },
+      "Microsoft.Extensions.Http/3.1.9": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
+        }
+      },
       "Microsoft.Extensions.Logging/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -531,6 +539,32 @@
           }
         }
       },
+      "prometheus-net/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Http": "3.1.9"
+        },
+        "runtime": {
+          "lib/net6.0/Prometheus.NetCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          },
+          "lib/net6.0/Prometheus.NetStandard.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "prometheus-net.AspNetCore/6.0.0": {
+        "dependencies": {
+          "prometheus-net": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -644,7 +678,8 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
-          "OnlineCourses.Domain": "1.0.0"
+          "OnlineCourses.Domain": "1.0.0",
+          "prometheus-net.AspNetCore": "6.0.0"
         },
         "runtime": {
           "OnlineCourses.Application.dll": {}
@@ -658,7 +693,8 @@
           "MediatR": "12.4.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0",
+          "prometheus-net.AspNetCore": "6.0.0"
         },
         "runtime": {
           "OnlineCourses.Domain.dll": {}
@@ -847,6 +883,13 @@
       "path": "microsoft.extensions.dependencymodel/8.0.0",
       "hashPath": "microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Http/3.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sRyrkBJGS+8ucKak+RmAPkAiIm6amA5ztpIkp0zrPn5+kDX2j8XJdRARr4Eh003RIGQxzvNGQ+j/voAhlPoXyw==",
+      "path": "microsoft.extensions.http/3.1.9",
+      "hashPath": "microsoft.extensions.http.3.1.9.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -937,6 +980,20 @@
       "sha512": "sha512-GDXiMS9peEdjSCU/rfgyHruio7q6tYuywGaktqEi6UPQ6ILechp3fVVX+dHXkIXt4nklCBzYVWkzFrSL9ubKUA==",
       "path": "npgsql.entityframeworkcore.postgresql/8.0.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512"
+    },
+    "prometheus-net/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rD6iXx1mKx6uy5E7YkktLxvBQKFTbNfe3qc43s+9ZuYWgEm41QMTlw/a+R+Hs86NkfHG3oHYAJuP7c7HQ+oj9Q==",
+      "path": "prometheus-net/6.0.0",
+      "hashPath": "prometheus-net.6.0.0.nupkg.sha512"
+    },
+    "prometheus-net.AspNetCore/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NCSrvXuR2oYH2SRjC+Ia6ikepD3m8pbRMZjSU639MKwE+W0pLWFvb5ZBXRGuSj7BW8JbFvgBsxL61E1L5OAY9A==",
+      "path": "prometheus-net.aspnetcore/6.0.0",
+      "hashPath": "prometheus-net.aspnetcore.6.0.0.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",

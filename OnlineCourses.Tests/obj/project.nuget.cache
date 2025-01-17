@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2IB+2sapeEu0x0uIIiuxdr+IhPdfT+hoHE67+iwedbJgAcjC4B2Y4w9w1qgj6Fyovi6u9bkrRsQQpzmfgZBj2g==",
+  "dgSpecHash": "1xUmYGfxnhTWJYOuzLr0mYI9tTTDeoSoKop1iYClv9bITOyY/4+OlnkkRxwteFehJlZGfOlDDmhaE9NXtvtQyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\lozik\\source\\repos\\OnlineCourses\\OnlineCourses.Tests\\OnlineCourses.Tests.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.http\\3.1.9\\microsoft.extensions.http.3.1.9.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
@@ -44,6 +45,8 @@
     "C:\\Users\\lozik\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\lozik\\.nuget\\packages\\prometheus-net\\6.0.0\\prometheus-net.6.0.0.nupkg.sha512",
+    "C:\\Users\\lozik\\.nuget\\packages\\prometheus-net.aspnetcore\\6.0.0\\prometheus-net.aspnetcore.6.0.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\lozik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

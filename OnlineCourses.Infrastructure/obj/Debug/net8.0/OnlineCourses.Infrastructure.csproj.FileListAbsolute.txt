@@ -17,3 +17,4 @@ C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Infrastructure\obj\Debug
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Infrastructure\obj\Debug\net8.0\OnlineCourses.Infrastructure.pdb
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Infrastructure\obj\Debug\net8.0\OnlineCourses.Infrastructure.genruntimeconfig.cache
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Infrastructure\obj\Debug\net8.0\ref\OnlineCourses.Infrastructure.dll
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Infrastructure\obj\Debug\net8.0\OnlineCourses.Infrastructure.sourcelink.json

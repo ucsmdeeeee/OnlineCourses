@@ -577,6 +577,24 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Http/3.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.9",
+          "Microsoft.Extensions.Logging": "3.1.9",
+          "Microsoft.Extensions.Options": "3.1.9"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -794,6 +812,47 @@
             "related": ".xml"
           }
         }
+      },
+      "prometheus-net/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Http": "3.1.9"
+        },
+        "compile": {
+          "lib/net6.0/Prometheus.NetCore.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          },
+          "lib/net6.0/Prometheus.NetStandard.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Prometheus.NetCore.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          },
+          "lib/net6.0/Prometheus.NetStandard.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      },
+      "prometheus-net.AspNetCore/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "prometheus-net": "6.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Prometheus.AspNetCore.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.CodeDom/4.4.0": {
         "type": "package",
@@ -1950,6 +2009,22 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Http/3.1.9": {
+      "sha512": "sRyrkBJGS+8ucKak+RmAPkAiIm6amA5ztpIkp0zrPn5+kDX2j8XJdRARr4Eh003RIGQxzvNGQ+j/voAhlPoXyw==",
+      "type": "package",
+      "path": "microsoft.extensions.http/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Http.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
+        "microsoft.extensions.http.3.1.9.nupkg.sha512",
+        "microsoft.extensions.http.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Logging/8.0.0": {
       "sha512": "tvRkov9tAJ3xP51LCv3FJ2zINmv1P8Hi8lhhtcKGqM+ImiTCC84uOPEI4z8Cdq2C3o9e+Aa0Gw0rmrsJD77W+w==",
       "type": "package",
@@ -2319,6 +2394,57 @@
         "npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "prometheus-net/6.0.0": {
+      "sha512": "rD6iXx1mKx6uy5E7YkktLxvBQKFTbNfe3qc43s+9ZuYWgEm41QMTlw/a+R+Hs86NkfHG3oHYAJuP7c7HQ+oj9Q==",
+      "type": "package",
+      "path": "prometheus-net/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/net462/Prometheus.NetStandard.dll",
+        "lib/net462/Prometheus.NetStandard.pdb",
+        "lib/net462/Prometheus.NetStandard.xml",
+        "lib/net6.0/Prometheus.NetCore.deps.json",
+        "lib/net6.0/Prometheus.NetCore.dll",
+        "lib/net6.0/Prometheus.NetCore.pdb",
+        "lib/net6.0/Prometheus.NetCore.xml",
+        "lib/net6.0/Prometheus.NetStandard.deps.json",
+        "lib/net6.0/Prometheus.NetStandard.dll",
+        "lib/net6.0/Prometheus.NetStandard.pdb",
+        "lib/net6.0/Prometheus.NetStandard.xml",
+        "lib/netcoreapp3.1/Prometheus.NetCore.deps.json",
+        "lib/netcoreapp3.1/Prometheus.NetCore.dll",
+        "lib/netcoreapp3.1/Prometheus.NetCore.pdb",
+        "lib/netcoreapp3.1/Prometheus.NetCore.xml",
+        "lib/netcoreapp3.1/Prometheus.NetStandard.deps.json",
+        "lib/netcoreapp3.1/Prometheus.NetStandard.dll",
+        "lib/netcoreapp3.1/Prometheus.NetStandard.pdb",
+        "lib/netcoreapp3.1/Prometheus.NetStandard.xml",
+        "lib/netstandard2.0/Prometheus.NetStandard.deps.json",
+        "lib/netstandard2.0/Prometheus.NetStandard.dll",
+        "lib/netstandard2.0/Prometheus.NetStandard.pdb",
+        "lib/netstandard2.0/Prometheus.NetStandard.xml",
+        "prometheus-net.6.0.0.nupkg.sha512",
+        "prometheus-net.nuspec"
+      ]
+    },
+    "prometheus-net.AspNetCore/6.0.0": {
+      "sha512": "NCSrvXuR2oYH2SRjC+Ia6ikepD3m8pbRMZjSU639MKwE+W0pLWFvb5ZBXRGuSj7BW8JbFvgBsxL61E1L5OAY9A==",
+      "type": "package",
+      "path": "prometheus-net.aspnetcore/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/prometheus-net-logo.png",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.deps.json",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.dll",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.pdb",
+        "lib/netcoreapp3.1/Prometheus.AspNetCore.xml",
+        "prometheus-net.aspnetcore.6.0.0.nupkg.sha512",
+        "prometheus-net.aspnetcore.nuspec"
       ]
     },
     "System.CodeDom/4.4.0": {
@@ -2778,7 +2904,8 @@
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.0",
+      "prometheus-net.AspNetCore >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -2864,6 +2991,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "prometheus-net.AspNetCore": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           }
         },
         "imports": [

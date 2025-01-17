@@ -138,3 +138,4 @@ C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Tests\bin\Debug\net8.0\S
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Tests\bin\Debug\net8.0\OnlineCourses.API.dll
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Tests\bin\Debug\net8.0\OnlineCourses.API.pdb
 C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Tests\bin\Debug\net8.0\OnlineCourses.API.xml
+C:\Users\lozik\source\repos\OnlineCourses\OnlineCourses.Tests\obj\Debug\net8.0\OnlineCourses.Tests.sourcelink.json
