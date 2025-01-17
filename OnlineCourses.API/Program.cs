@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Reflection;
+using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -95,7 +96,7 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddControllers();
 
 var app = builder.Build();
-
+app.UseHttpMetrics();
 // Настройка приложения
 if (app.Environment.IsDevelopment())
 {
@@ -107,6 +108,10 @@ app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    endpoints.MapMetrics(); // Эндпоинт для Prometheus
+});
 
 app.Run();

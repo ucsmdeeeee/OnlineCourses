@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using OnlineCourses.API.Metrics;
 using OnlineCourses.Application.DTOs.Users;
 using OnlineCourses.Application.Queries;
 
@@ -13,15 +14,12 @@ public class UserController : ControllerBase
     {
         _mediator = mediator;
     }
-    /// <summary>
-    /// Регистрирует нового пользователя.
-    /// </summary>
-    /// <param name="command">Данные пользователя.</param>
-    /// <returns>Id созданного пользователя.</returns>
+  
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterUserDto dto)
     {
         var command = new RegisterUserCommand(dto.Name, dto.Email, dto.Role, dto.Password);
+        CustomMetrics.UserRegistrationsCounter.Inc();
         var userId = await _mediator.Send(command);
         return CreatedAtAction(nameof(GetById), new { id = userId }, userId);
     }
